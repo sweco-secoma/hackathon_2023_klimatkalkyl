@@ -1,20 +1,45 @@
-﻿using System.Windows;
-
+﻿using Klimatkalkyl.Entities;
+using Klimatkalkyl.Parsers;
+using System.Collections.Generic;
+using System.Windows;
+using System.Windows.Documents;
 
 namespace Klimatkalkyl
 {
-
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        private List<Resource> Resources { get; set; }
+
+        private Resource Betong { get; set;}
+
         public MainWindow()
         {
             InitializeComponent();
 
+            InitGraphics();
+            ReadResources();
+            GetBetongResource();
+        }
+
+        
+        private void InitGraphics()
+        {
             LabelFileName.Visibility = Visibility.Hidden;
             LabelFileNameSubject.Visibility = Visibility.Hidden;
+        }
+
+        private void ReadResources()
+        {
+            JsonParser jsonParser = new JsonParser();
+            Resources = jsonParser.ParseResourceFile();
+        }
+
+        private void GetBetongResource()
+        {
+            Betong = JsonParser.GetResource(Resources, "betong");
         }
 
         private void ButtonOpenFile_Click(object sender, RoutedEventArgs e)

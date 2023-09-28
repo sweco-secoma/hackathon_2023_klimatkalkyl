@@ -30,7 +30,7 @@ namespace Klimatkalkyl.Parsers
             }
         }
 
-        public Resource? GetResource(List<Resource> resources, string resourceName)
+        public static Resource? GetResource(List<Resource> resources, string resourceName)
         {
             var betong_Part = resources.Where(x => x.Namn.ToLower().Contains(resourceName));
 
