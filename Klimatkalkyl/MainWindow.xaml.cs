@@ -15,6 +15,8 @@ namespace Klimatkalkyl
 
         private Resource Betong { get; set;}
 
+        private string IFCFile { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
@@ -61,6 +63,9 @@ namespace Klimatkalkyl
                 // Open document
                 string filename = dialog.SafeFileName;
                 LabelFileName.Content = filename;
+
+                IFCParser iFCParser = new IFCParser();
+                IFCFile = iFCParser.ParseIFCFile(dialog.FileName);
             }
         }
     }
