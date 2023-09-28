@@ -5,8 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Klimatkalkyl"
         mc:Ignorable="d"
-        Title="Klimatkalkyl" Height="600" Width="800">
+        Title="Klimatkalkyl" Height="600" Width="589">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="29*"/>
+            <ColumnDefinition Width="120*"/>
+            <ColumnDefinition Width="651*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ButtonOpenFile" Content="Öppna IFC fil" HorizontalAlignment="Left" Margin="9,158,0,0" VerticalAlignment="Top" Height="44" Width="201" FontSize="20" Click="ButtonOpenFile_Click" Background="#FFEF1212" Foreground="#FFF5E9E9" FontWeight="Bold" Grid.ColumnSpan="2" Grid.Column="1">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FFEF1212" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border x:Name="Border" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FFEF1212" TargetName="Border" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Label x:Name="LabelFileName" Content="Label" HorizontalAlignment="Left" Margin="8,245,0,0" VerticalAlignment="Top" FontSize="20" Grid.Column="1" RenderTransformOrigin="-0.772,0.459" Width="560" Grid.ColumnSpan="2"/>
+        <Label x:Name="LabelFileNameSubject" Content="Filnamn:" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" FontSize="20" Grid.Column="1" FontWeight="Bold" Width="121" Grid.ColumnSpan="2"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="134" Margin="10,26,0,0" VerticalAlignment="Top" Width="200" Source="/TV-logo.JPG" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>

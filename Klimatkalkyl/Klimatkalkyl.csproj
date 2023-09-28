@@ -7,4 +7,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="TV-logo.JPG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="System\Windows\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="TV-logo.JPG" />
+  </ItemGroup>
+
 </Project>
