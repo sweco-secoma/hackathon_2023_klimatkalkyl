@@ -1,0 +1,954 @@
+[
+    {
+        "Namn": "”Glass wool” för användning i batterier",
+        "Klimat": 1.54,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 28,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "ICE version 2.0",
+        "TekniskBeskrivning": "Large data range, but the selected value is inside a small band of frequently quoted values."
+    },
+    {
+        "Namn": "Aluminium",
+        "Klimat": 9.16,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 155,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Aluminium general, Inventory of Carbon & Energy (ICE) Version 2.0, Prof. Geoff Hammond & Craig Jones Sustainable Energy Research Team (SERT) Department of Mechanical Engineering University of Bath, UK",
+        "TekniskBeskrivning": "Genomsnittlig tillverkning och teknologi."
+    },
+    {
+        "Namn": "Annat material",
+        "Klimat": 0,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 0,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Anges av användare",
+        "TekniskBeskrivning": "Anges av användare"
+    },
+    {
+        "Namn": "Annat material",
+        "Klimat": 0,
+        "Enhet": {
+            "Id": "34d58ec2-771d-8995-cc7c-d891a19530a3",
+            "Namn": "kg CO2e/ton",
+            "Beskrivning": " "
+        },
+        "Energi": 0,
+        "EnergiEnhet": {
+            "Id": "52623bc9-b612-4102-816d-f56960900772",
+            "Namn": "MJ/ton",
+            "Beskrivning": "                                                                                                                                                                                                                                                          "
+        },
+        "Datakalla": "Anges av användare.",
+        "TekniskBeskrivning": "Anges av användare."
+    },
+    {
+        "Namn": "Annat material ",
+        "Klimat": 0,
+        "Enhet": {
+            "Id": "34d58ec2-7e1d-8995-cc7c-d891a19530a3",
+            "Namn": "kg CO2e/st ",
+            "Beskrivning": " "
+        },
+        "Energi": 0,
+        "EnergiEnhet": {
+            "Id": "db69ea95-25c9-4f91-9db7-a0d5314a4293",
+            "Namn": "MJ/st",
+            "Beskrivning": "Mega joule per styck                                                                                                                                                                                                                                      "
+        },
+        "Datakalla": "Anges av användare.",
+        "TekniskBeskrivning": "Anges av användare."
+    },
+    {
+        "Namn": "Asfalt, 6,5% bitumen",
+        "Klimat": 0.049,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 3.04,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "EPD International, NCC, Environmental Product Declaration for NCC Green Asphalt2 from Arlanda asphalt plant, Reg. no. S-P-00844 . Giltig  t.o.m. 2022-01-26",
+        "TekniskBeskrivning": "Beläggningstyp ABS 16 70/100 Kk<6 med en bitumenhalt på 4,4-6,2% Genomsnittlig tillverkning och teknologi för asfalt. Inkluderar råvaruutvinning och transporter, tillverkning av asfalt A1-A3. Underlag för bitumens miljöpåverkan är GaBi:s egna datadatabas ”Feed-stock energy” är inkluderat i dataset för primärenergi."
+    },
+    {
+        "Namn": "Avskogning",
+        "Klimat": 843,
+        "Enhet": {
+            "Id": "34d58ec2-7e1d-4995-cc7c-d871f195306d",
+            "Namn": "kg CO2e/m3 fub",
+            "Beskrivning": ""
+        },
+        "Energi": 0,
+        "EnergiEnhet": {
+            "Id": "34d58ec2-7e1d-4995-cc7c-d231f395306d",
+            "Namn": "MJ/m3 fub",
+            "Beskrivning": "                                                                                                                                                                                                                                                          "
+        },
+        "Datakalla": "LCA-modell för Botniabanan. Håkan Stripple, IVL. I modellen har följande referenser använts:\r\n\r\nBerg, S., Lindholm, E-L. 2005. Energy use and environmental impacts of forest operations in Sweden. Journal of Cleaner Production 13 (2005) 33-42;327.\r\n\r\nHagberg L., Karlsson P-E., Stripple H., Ek M.,  Zetterberg T., Svenska skogsindustrins emissioner och upptag av växthusgaser. IVL B report: B1774 (2008). \r\n",
+        "TekniskBeskrivning": "Avser nettoemissioner av koldioxid som blir följden av att skog avverkas permanent för byggande av infrastruktur. 50 % av totalt avverkad skog antas vara permanent avverkad. Inkluderar endast den biomassa som avverkas, angiven som fub-fast under bark. Emissioner till följd av ändrad markanvändning ingår ej. Emissioner från skogsmaskiner ingår ej. Densitet 900 kg/m3fub"
+    },
+    {
+        "Namn": "Betong, anläggning",
+        "Klimat": 0.166,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 0.99,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "EPD från svensk betong EPD Norge,\r\nNEPD-1294-420\r\nGiltig tom 2022-03-27",
+        "TekniskBeskrivning": "Exempeltillverkare i Sverige. Betongrecept för betongbro."
+    },
+    {
+        "Namn": "Bitumen ",
+        "Klimat": 0.208,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 45.7,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "The Eurobitume life-cycle inventory for bitumen, version 3.0, D/2019/7512/29, Published by the European Bitumen Association, 3rd edition December 2019 \r\n",
+        "TekniskBeskrivning": "Teknik för produktionsanläggningar i Europa.  Infrastruktur så som oljeplattformar, pipelines för transport råolja samt borrbrunnar etc. är inkluderat. ”Feed-stock energy” är inkluderat i dataset för primärenergi."
+    },
+    {
+        "Namn": "Bitumenmatta",
+        "Klimat": 0.56,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 46.73,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "EPD International, European Waterproofing association, (2017) Flexible bitumen Sheets for Roof waterproofing- Sector EPD. Giltig till 2020-11-30.",
+        "TekniskBeskrivning": "Medelvärde för tre olika typer av mulit-lager och tre typer av singel-lager (bitumenprodukter)."
+    },
+    {
+        "Namn": "Bly",
+        "Klimat": 0.58,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 10,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Lead, recycled: Hammond, G. & Jones, C., Inventory of Carbon & Energy, version 2.0 2011, University of Bath, UK",
+        "TekniskBeskrivning": "Baserat på återvunnet bly."
+    },
+    {
+        "Namn": "Cellplast, expanderad polystyren (lättfyllnadsmaterial)",
+        "Klimat": 2.37,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 85.6,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Eco-profiles PlasticsEurope\r\n“Expandable Polystyrene (EPS) PlasticsEurope February 2015”. Giltig tom 2023.\r\n",
+        "TekniskBeskrivning": "Representerar mer än 80 % av Europas produktion. ”Feed-stock energy” inkluderas i dataset för primärenergi."
+    },
+    {
+        "Namn": "Cement (CEM I)",
+        "Klimat": 0.87,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 3.7,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Cementa AB, HeidelbergCement Group. Ansvarig för EPD-program: Institut Bauen und Umwelt e.V. (IBU), Deklarationsnummer: EPD-HCG-20190047-CAA1-EN. Deklaration giltig tom 2024-05-05.",
+        "TekniskBeskrivning": "Avser CEM I 42.5 N-SR 3/MH/LA bulk Portland cement. Dataset representerar cement producerad vid Cementas produktionsanläggning i Slite."
+    },
+    {
+        "Namn": "Cement (CEM II)",
+        "Klimat": 0.76,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 2.5,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Cementa AB, HeidelbergCement Group. Ansvarig för EPD-program: Institut Bauen und Umwelt e.V. (IBU), Deklarationsnummer: EPD-HCG-20190045-CAA1-EN. Deklaration giltig tom 2024-05-05.",
+        "TekniskBeskrivning": "Avser CEM II/A-LL 42.5 R bulk Portland limestone cement. Datasetet representerar byggcement producerad vid Cementas produktionsanläggning i Skövde. "
+    },
+    {
+        "Namn": "Diesel (MK 1)",
+        "Klimat": 2.8,
+        "Enhet": {
+            "Id": "34d58ec2-7e1d-4995-cc7c-d691f1953062",
+            "Namn": "kg CO2e/l",
+            "Beskrivning": " "
+        },
+        "Energi": 43.25,
+        "EnergiEnhet": {
+            "Id": "6dd755c7-2c9f-46fb-aaec-f2e44211b16e",
+            "Namn": "MJ/l",
+            "Beskrivning": "                                                                                                                                                                                                                                                          "
+        },
+        "Datakalla": "Klimatpåverkan och fördelning mellan HVO, FAME och fossil diesel är hämtad ifrån Energimyndighetens rapport (2018) Drivmedel 2017 redovisning av uppgifter enligt drivmedelslagen och hålbarhetslagen ER2018:17. Primärenergifaktorer för HVO, FAME och fossil diesel är hämtat ifrån IVL:s uppdragsrapport U5696. Värmevärde 35,28MJ/l har använts för omräkningar.",
+        "TekniskBeskrivning": "Förbränning inklusive produktion och distribution av bränsle i Sverige."
+    },
+    {
+        "Namn": "El",
+        "Klimat": 0.054,
+        "Enhet": {
+            "Id": "34d58ec2-7e1d-4995-cc7c-d691f1953064",
+            "Namn": "kg CO2e/kWh",
+            "Beskrivning": " "
+        },
+        "Energi": 7.27,
+        "EnergiEnhet": {
+            "Id": "dd54bb60-aedd-4558-8c71-1f3cce866ad0",
+            "Namn": "MJ/kWh",
+            "Beskrivning": "Mega joule per kilo Watt timme                                                                                                                                                                                                                            "
+        },
+        "Datakalla": "Association of Issuing Bodies, European Residual mixes 2018. Primärenergi är omarbetad och gäller endast för svensk elproduktion. Primärenergifaktorerna för energislag kommer ifrån Gode m.fl. (2011) Miljöfaktaboken.",
+        "TekniskBeskrivning": "Beräkningarna avser svensk residualmix. "
+    },
+    {
+        "Namn": "El, ursprungsmärkt förnybar (inköpt av Trafikverket)",
+        "Klimat": 0.012,
+        "Enhet": {
+            "Id": "34d58ec2-7e1d-4995-cc7c-d691f1953064",
+            "Namn": "kg CO2e/kWh",
+            "Beskrivning": " "
+        },
+        "Energi": 0.62,
+        "EnergiEnhet": {
+            "Id": "dd54bb60-aedd-4558-8c71-1f3cce866ad0",
+            "Namn": "MJ/kWh",
+            "Beskrivning": "Mega joule per kilo Watt timme                                                                                                                                                                                                                            "
+        },
+        "Datakalla": "Moro, A., Lonza, L, 20 (2018), Electricity carbon intensity in European Member States: Impacts on GHG emissions of electric vehicles.\r\n\r\nKlimatpåverkan och primärenergi är omarbetad och gäller endast för svensk elproduktion. Emissions- och primärenergifaktorer bygger på EPD:er från Vattenfall och Palanov N., 2014.",
+        "TekniskBeskrivning": "Representativt för den el som köps in av Trafikverket. Ursprungsmärkt el ska endast användas vid drift och underhåll. Dvs den el Trafikverket själv köper in."
+    },
+    {
+        "Namn": "Fibercementskiva ",
+        "Klimat": 1.09,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 10.4,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Inventory of Carbon & Energy (ICE) Version 2.0, Prof. Geoff Hammond & Craig Jones Sustainable Energy Research Team (SERT) Department of Mechanical Engineering University of Bath, UK.",
+        "TekniskBeskrivning": "Paneler i större format tillverkade av fibercement  i en nästan helautomatiserad process. "
+    },
+    {
+        "Namn": "Geotextil, PP textil",
+        "Klimat": 1.44,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 72.6,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Eco-profiles PlasticsEurope ”Ethylene, Propylene, Butadiene, Pyrolysis Gasoline, Ethylene Oxide (EO), Ethylene Glycols (MEG, DEG, TEG) PlasticsEurope November 2012”.",
+        "TekniskBeskrivning": "Genomsnittlig teknik hos 28 tillverkare i Europa."
+    },
+    {
+        "Namn": "Glas, härdat",
+        "Klimat": 1.35,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 23.5,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Glass, toughened: Hammond, G. & Jones, C., Inventory of Carbon & Energy, version 2.0 2011, University of Bath, UK",
+        "TekniskBeskrivning": "Tre datakällor för produktion i Storbritannien. Genomsnittlig teknik."
+    },
+    {
+        "Namn": "Glasfiber för optokabel ",
+        "Klimat": 1.54,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 28,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Glasfiber: Hammond, G. & Jones, C., Inventory of Carbon & Energy, version 2.0 2011, University of Bath, UK.",
+        "TekniskBeskrivning": "Generellt europeiskt data för glasfiber (glasull)."
+    },
+    {
+        "Namn": "Granit",
+        "Klimat": 0.7,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 11,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Inventory of Carbon & Energy (ICE) Version 2.0, Prof. Geoff Hammond & Craig Jones Sustainable Energy Research Team (SERT) Department of Mechanical Engineering University of Bath, UK",
+        "TekniskBeskrivning": "I processen ingår att hitta eller skapa (minimala) brott i stenen, ta bort stenen med hjälp av tunga maskiner, säkra stenen på ett fordon för transport, och förflytta materialet till lagring samt vidare bearbetning för skärning eller formning av materialet."
+    },
+    {
+        "Namn": "Halvvarm asfalt",
+        "Klimat": 0.022,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 2.026,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Utdrag ur EKA-modellen 2016 med underlag från: Energieffektiv asfaltbeläggning - LCA-verktyget EKA, 2015, Roger Lundberg NCC Roads AB, FUD-ID 4930, Trafikverket. Sammanställning, inkl särredovisning av feedstock energy, enligt IVL 2016:Revidering av miljödata för användning i beräkningsverktyget Klimatkalkyl. Nr U5696. TRV 2016/79097.",
+        "TekniskBeskrivning": "Beläggningstyp MJOG16 V12000. \r\nGenomsnittlig tillverkning och teknologi. Inkluderar råvaruutvinning, transporter och tillverkning. Inkluderar energiinnehåll bitumen: 1,648 MJ/kg asfaltmassa. Transport till anläggning samt utläggning inkluderas ej."
+    },
+    {
+        "Namn": "Jord",
+        "Klimat": 0.0003,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 0.005,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Tyréns 2020: PM Emissionsfaktor bergkross. Beräkningar enl Klimatkalkyl v 7.0. ",
+        "TekniskBeskrivning": "Avser inköpt jord Fall B-massor. Inkluderar grävmaskin för att lasta jord \r\nDensitet 1600 kg/m3 "
+    },
+    {
+        "Namn": "Kalk",
+        "Klimat": 1.45,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 4.9,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Ökobaudat, oekobau.dat: 1.1.02 Mineral building products / Binder / Lime; Lime (CaO; Finelime); CaO finelime, density of CaO: 3,37 g·cm3 (20 °C), molar mass of CaO: 56,08 g·mol1.",
+        "TekniskBeskrivning": "Miljödata för tillverkning av bränd kalk (Lime, CaO), teknologi representativ för Tyskland."
+    },
+    {
+        "Namn": "Kall asfalt",
+        "Klimat": 0.009,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 0.92,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Utdrag ur EKA-modellen 2016 med underlag från: Energieffektiv asfaltbeläggning - LCA-verktyget EKA, 2015, Roger Lundberg NCC Roads AB, FUD-ID 4930, Trafikverket. \r\nSammanställning, inkl särredovisning av feedstock energy, enligt IVL 2016:Revidering av miljödata för användning i beräkningsverktyget Klimatkalkyl. Nr U5696. TRV 2016/79097. Korrigerad för minuspost. ",
+        "TekniskBeskrivning": "Beläggningstyp kall ÅA 85% Nyrec. \r\nGenomsnittlig tillverkning och teknologi. Inkluderar råvaruutvinning, transporter och tillverkning. Inkluderar energiinnehåll bitumen: 0,784 MJ/kg asfaltmassa. Transport till anläggning samt utläggning inkluderas ej.\r\n"
+    },
+    {
+        "Namn": "Koppar",
+        "Klimat": 1.98,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 26.1,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "European Copper Institute, Copper sheet, http://www.kupferinstitut.de/",
+        "TekniskBeskrivning": "Europeiskt genomsnitt, vagga till grind utan användningsfas. Uppgifterna i ECI Life Cycle Inventory bygger på produktionsdata från EU-25 för referensåret 2005. Gruvor och metallproduktionsverksamhet utanför Europa har modellerats på en global skala och integrerats baserat på statistik över handeln."
+    },
+    {
+        "Namn": "Krossmaterial",
+        "Klimat": 0.004,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 0.06,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Tyréns 2020: PM Emissionsfaktor bergkross. Beräkningar enl Klimatkalkyl v 7.0.",
+        "TekniskBeskrivning": "Avser grus och krossmaterial, inklusive Fall B-massor. Inkluderar grävmaskin, krossning med mobilt verk, samt borrning och sprängning. \r\nDensitet 1800 kg /m^3"
+    },
+    {
+        "Namn": "Lastbil",
+        "Klimat": 0.106,
+        "Enhet": {
+            "Id": "24d58ec2-7e1d-4995-bd7c-d331f195306d",
+            "Namn": "kg CO2e/tkm",
+            "Beskrivning": "Kg co2 per tkm"
+        },
+        "Energi": 1.69,
+        "EnergiEnhet": {
+            "Id": "6dd755c7-2c9f-46fb-aaec-f2e442a1b16e",
+            "Namn": "MJ/tkm\r\n",
+            "Beskrivning": "                                                                                                                                                                                                                                                          "
+        },
+        "Datakalla": "Lastbilstransporterna beräknades med den metodik som används i Gabi: Thinkstep (2016a) GaBi Software-System and Database for Life Cycle Engineering,  och med följande antaganden: dieseldriven lastbil (Euro 6) med en lastkapacitet på över 32 ton, en tom retur, 10% motorväg, 60% landsbygd och 30% stadskörning. ",
+        "TekniskBeskrivning": "Avser endast lastbilstransport av fall B-massor eller andra massor som sker regionalt. "
+    },
+    {
+        "Namn": "Limträ",
+        "Klimat": 0.136,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 27,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "EPD från Moelven, EPD Norge, NEPD-456-318-EN\r\nGiltig tom 2021-06 13.",
+        "TekniskBeskrivning": "Representativ för svensk produktion, en anläggning. Limträbalkar och pelare. ”Feed-stock energy” är inkluderat i dataset för primärenergi. Densitet 455 kg/m^3."
+    },
+    {
+        "Namn": "Lättklinker (Lättfyllnadsmaterial)",
+        "Klimat": 0.22,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 2.4,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Medelvärde av 6 EDP:er från Sverige och övriga Europa.",
+        "TekniskBeskrivning": "Medelvärde för lösvikt (lecakulor) och lättviktsbetongblock."
+    },
+    {
+        "Namn": "Markisolering",
+        "Klimat": 1.28,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 16.6,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Inventory of Carbon & Energy (ICE) Version 2.0, Prof. Geoff Hammond & Craig Jones Sustainable Energy Research Team (SERT) Department of Mechanical Engineering University of Bath, UK.",
+        "TekniskBeskrivning": "Representativ för europeisk tillverkning av isolering av typen Rockwool."
+    },
+    {
+        "Namn": "Massor",
+        "Klimat": 0,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 0,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Emissionsfaktor är nollad och används endast för att få en vikt, vilken används för transportberäkningar.",
+        "TekniskBeskrivning": "Emissionsfaktor är nollad och används endast för att få en vikt, vilken används för transportberäkningar."
+    },
+    {
+        "Namn": "Naturgas",
+        "Klimat": 0.01,
+        "Enhet": {
+            "Id": "34d58ec2-7e1d-4995-cc7c-d691f1953066",
+            "Namn": " kg CO2e/MJ",
+            "Beskrivning": " "
+        },
+        "Energi": 1.09,
+        "EnergiEnhet": {
+            "Id": "207e480d-5c2e-4c42-8dc3-c3bb36eeaf41",
+            "Namn": "MJ/MJ\r\n",
+            "Beskrivning": "                                                                                                                                                                                                                                                          "
+        },
+        "Datakalla": "Gode m.fl. (2011) Miljöfaktaboken.",
+        "TekniskBeskrivning": "Omfattar produktion av naturgas, ej förbränning då den används i batterier på tåg."
+    },
+    {
+        "Namn": "Neoprene elastomer",
+        "Klimat": 0.61,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 11.93,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Plastics Europe, bearbetat av H Stripple 2010 i LCA för Botniabanan",
+        "TekniskBeskrivning": "Genomsnittliga data för Europa för grundkomponenterna chlorine och butadiene. Baserat på dessa görs en beräkning utifrån information om framställning av polychloroprene (neoprene elastomer). \"Feedstock energy\" inkluderas i dataset för primärenergi."
+    },
+    {
+        "Namn": "Polyamide, PA",
+        "Klimat": 6.4,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 139.5,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Eco-profiles PlasticsEurope ”Polyamide 6.6 (PA6.6) PlasticsEurope February 2014”.\r\nGiltig tom 2018.\r\n",
+        "TekniskBeskrivning": "Representerar 79 % av Europas produktion. ”Feedstock energy” inkluderas i dataset för primärenergi."
+    },
+    {
+        "Namn": "Polyesterväv",
+        "Klimat": 2.6,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 67.8,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "EPD från Protan AS, EPD Norge, NEPD-323-203-NO\r\nGiltig tom 2020-06 25.",
+        "TekniskBeskrivning": "Representerar en tillverkare polyesterväv, för takbeläggning. ”Feedstock energy” inkluderas i dataset för primärenergi."
+    },
+    {
+        "Namn": "Polyeten, HDPE",
+        "Klimat": 1.8,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 32.3,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Eco-profiles PlasticsEurope\r\n”High-density Polyethylene (HDPE),\r\nLow-density Polyethylene (LDPE),\r\nLinear Low-density Polyethylene (LLDPE)\r\nPlasticsEurope\r\nApril 2014”\r\nGiltig tom 2016.",
+        "TekniskBeskrivning": "Representerar 68 % av Europas produktion. ”Feedstock energy” inkluderas i dataset för primärenergi."
+    },
+    {
+        "Namn": "Polyeten, LDPE",
+        "Klimat": 1.9,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 35.1,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Eco-profiles PlasticsEurope\r\n” High-density Polyethylene (HDPE),\r\nLow-density Polyethylene (LDPE),\r\nLinear Low-density Polyethylene (LLDPE)\r\nPlasticsEurope\r\nApril 2014”\r\nGiltig tom 2016.",
+        "TekniskBeskrivning": "Representerar 86 % av Europas produktion. ”Feedstock energy” inkluderas i dataset för primärenergi."
+    },
+    {
+        "Namn": "Polypropylen, PP",
+        "Klimat": 1.44,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 72.6,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Eco-profiles PlasticsEurope ”Ethylene, Propylene, Butadiene, Pyrolysis Gasoline, Ethylene Oxide (EO), Ethylene Glycols (MEG, DEG, TEG) PlasticsEurope November 2012”.",
+        "TekniskBeskrivning": "Genomsnittlig teknik hos 28 tillverkare i Europa. ”Feedstock energy” inkluderas i dataset för primärenergi."
+    },
+    {
+        "Namn": "PVC",
+        "Klimat": 2.56,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 70.8,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Eco-profiles PlasticsEurope” Vinyl chloride (VCM) and Polyvinyl chloride (PVC) PlasticsEurope /The European Council of Vinyl Manufacturers\r\n(ECVM) May 2015 December 2016: update water balance”.",
+        "TekniskBeskrivning": "Representerar 71 % av Europas production. ”Feedstock energy” inkluderas i dataset för primärenergi."
+    },
+    {
+        "Namn": "Salt (NaCl)",
+        "Klimat": 0.01,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 0.184,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Tyréns 2016. LCA Klimatbelastning vintervägsalt. Rapport 2016-02-12. IVL 2016: Revidering av miljödata för användning i beräkningsverktyget Klimatkalkyl. Nr U5696. TRV 2016/79097. Underlagsdata från produktion av vägsalt genom brytning av bergsalt (traditionell gruvdrift, Esco) samt beräkningar för produktion av vägsalt från havssalt. Importuppgifter från Svevia.",
+        "TekniskBeskrivning": "Svenska vägsaltmarknaden fördelad på Tyskland (40 %); Italien (30 %); Frankrike (5 %); Brasilien (5 %) och Nordafrika (20 %). \r\nEmissionsfaktorn inkluderar ingen transport."
+    },
+    {
+        "Namn": "Salt (NaCl), inklusive transport",
+        "Klimat": 0.077,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 1.16,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Tyréns, 2016. LCA Klimatbelastning vintervägsalt. Rapport 2016-02-12. IVL 2016: Revidering av miljödata för användning i beräkningsverktyget Klimatkalkyl. Nr U5696. TRV 2016/79097. Underlagsdata från produktion av vägsalt genom brytning av bergsalt (traditionell gruvdrift, Esco) samt beräkningar för produktion av vägsalt från havssalt. Importuppgifter från Svevia.",
+        "TekniskBeskrivning": "Svenska vägsaltmarknaden fördelad på Tyskland (40 %); Italien (30 %); Frankrike (5 %); Brasilien (5 %) och Nordafrika (20 %). \r\nEmissionsfaktorn inkluderar primärenergi och utsläpp för transporter, 0,977 MJ/kg respektive 0,067 kg CO2e/kg."
+    },
+    {
+        "Namn": "Slipers",
+        "Klimat": 0.17,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 1.47,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Medelvärde av 2 EPD:er från Norge och Sverige. EPD-nummer: NEPD-1334-432-SE och EPD S-P-01060",
+        "TekniskBeskrivning": "A30 och S-P-01060 (Långviksmon och Kungsör) inklusive befästning. Gäller för axellast 25 ton. Vikt antas i klimatkalkyl till 271 kg som utgör ett medelvärde av respektive slipers vikt."
+    },
+    {
+        "Namn": "Sprängämne Tovex",
+        "Klimat": 2.65,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 23.5,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "EPD Norge från Orica Norway AS Gäller för Bulk emulsion sprängmedel. Användas vid bla., konstruktion, tunnlar och underjordskonstruktion.",
+        "TekniskBeskrivning": "bulkemulsions-sprängmedel. Produktionen sker i Sverige."
+    },
+    {
+        "Namn": "Styrene, för tillverkning av isolatorer",
+        "Klimat": 3.1,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 82.6,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Eco-profiles PlasticsEurope\r\n” Styrene, A report by I Boustead for PlasticsEurope Data last calculated March 2005”.",
+        "TekniskBeskrivning": "Äldre data från 11 Europeiska produktionsplatser med genomsnittlig teknologi."
+    },
+    {
+        "Namn": "Stål, armeringsstänger",
+        "Klimat": 0.7,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 11.1,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Medelvärde av 14 EPD:er från Norge och övriga Europa.",
+        "TekniskBeskrivning": "Genomsnittlig teknologi. "
+    },
+    {
+        "Namn": "Stål, armeringstråd",
+        "Klimat": 1.1,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 14.6,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Medelvärde av 6 EDP:er från Sverige och övriga Europa.\r\n",
+        "TekniskBeskrivning": "Teknologi för spännarmering, vajrar och spolar."
+    },
+    {
+        "Namn": "Stål, generellt värde",
+        "Klimat": 2.2,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 28,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Medelvärde av 10 EDP:er från Norge och Finland.",
+        "TekniskBeskrivning": "Genomsnittlig teknologi med 20 % återvunnet material."
+    },
+    {
+        "Namn": "Stål, generellt värde, varmförzinkat",
+        "Klimat": 2.6,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 28.9,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "EPD International, EPD från European General Galvanizers Association, Batch hot dip galvanizing of steel products to en iso 1461.",
+        "TekniskBeskrivning": "Branschgenomsnitt."
+    },
+    {
+        "Namn": "Stål, rostfritt stål och rostfri armering",
+        "Klimat": 3.6,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 52.9,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Medelvärde av 5 EDP:er från Sverige, Finland och Tyskland.",
+        "TekniskBeskrivning": "Genomsnittlig teknologi för rostfria långa-, kallvalsade- och varmvalsade produkter samt rostfri armering."
+    },
+    {
+        "Namn": "Svavelsyra",
+        "Klimat": 0.25,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 3.3,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Database LCA Food DK",
+        "TekniskBeskrivning": "H2SO4 ETH, original German title: Schwefelsaeure H2SO4. Total aggregated system inventory. This is a single results record of the similar unit process. Small differences can occur due to rounding. Sulphurdioxide gas is oxidized to SO3 using a catalyst. The SO3 is absorbed in concentrated H2SO4, by adding water the SO3 is converted into H2SO4. Data based on a 1991 study. The sulphur used can originate from elementary sulphur, pyrite and other sources such  as secondary sulphur. Assumed is that  elementary sulphur from Poland is used (800 km transport by train). No capital goods included."
+    },
+    {
+        "Namn": "Syntetgummi (Ballastmatta)",
+        "Klimat": 2.85,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 91,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Hammond, G. & Jones, C., Inventory of Carbon & Energy, version 2.0 2011, University of Bath, UK.",
+        "TekniskBeskrivning": "Genomsnittlig teknologi för naturligt och syntetgummi. ”Feedstock energy” inkluderas i dataset för primärenergi."
+    },
+    {
+        "Namn": "Tankbeläggning",
+        "Klimat": 0.017,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 3.7,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Utdrag ur EKA-modellen 2016 med underlag från: Energieffektiv asfaltbeläggning - LCA-verktyget EKA, 2015, Roger Lundberg NCC Roads AB, FUD-ID 4930, Trafikverket. Sammanställning, inkl särredovisning av feedstock energy, enligt IVL 2016:Revidering av miljödata för användning i beräkningsverktyget Klimatkalkyl. Nr U5696. TRV 2016/79097.",
+        "TekniskBeskrivning": "Beläggningstyp Tank IMt 40.\r\nGenomsnittlig tillverkning och teknologi. Inkluderar råvaruutvinning, transporter och tillverkning. Inkluderar energiinnehåll bitumen: 1,229 MJ/kg asfaltmassa. Transport till anläggning samt utläggning inkluderas ej. "
+    },
+    {
+        "Namn": "Transformatorolja",
+        "Klimat": 0.23,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 48.8,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "Miljöfaktaboken (2011) Gode m. fl. Produktion av eldningsolja.",
+        "TekniskBeskrivning": "Transformatolja har likställts med genomsnittlig teknologi för produktion av eldningsolja. Förbränning inkluderas ej. ”Feedstock energy” inkluderas i dataset för primärenergi. "
+    },
+    {
+        "Namn": "Trä",
+        "Klimat": 0.069,
+        "Enhet": {
+            "Id": "34d52ec2-7e1d-4995-bd7c-d640f175306d",
+            "Namn": "kg CO2e/kg\r\n",
+            "Beskrivning": " "
+        },
+        "Energi": 23.42,
+        "EnergiEnhet": {
+            "Id": "6d435b0a-b9b9-410a-9ad8-b401b4146d50",
+            "Namn": "MJ/kg\r\n",
+            "Beskrivning": "Mega joule per kg                                                                                                                                                                                                                                         "
+        },
+        "Datakalla": "EPD international AB, Svenskt Trä, Bransch-EPD S-P-01325\r\nGiltig tom 2023-06-27\r\n",
+        "TekniskBeskrivning": "Representerar 58 % av Sveriges produktion av sågad vara. ”Feedstock energy” inkluderas i dataset för primärenergi. Densitet 455 kg/m^3"
+    }
+]
