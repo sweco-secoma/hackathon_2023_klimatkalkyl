@@ -10,11 +10,11 @@ namespace Klimatkalkyl.Entities
     {
         public string Namn { get; set; }
 
-        public decimal Klimat { get; set; }
+        public double Klimat { get; set; }
 
         public Enhet Enhet { get; set;}
 
-        public decimal Energi { get; set; }
+        public double Energi { get; set; }
 
         public Enhet EnergiEnhet { get; set; }
 

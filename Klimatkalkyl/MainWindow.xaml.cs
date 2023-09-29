@@ -1,7 +1,10 @@
 ﻿using Klimatkalkyl.Entities;
 using Klimatkalkyl.Parsers;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Documents;
 
 namespace Klimatkalkyl
@@ -48,7 +51,6 @@ namespace Klimatkalkyl
         {
             // Configure open file dialog box
             var dialog = new Microsoft.Win32.OpenFileDialog();
-            //dialog.FileName = "Document"; // Default file name
             dialog.DefaultExt = ".ifc"; // Default file extension
             dialog.Filter = "IFC Files (.ifc)|*.ifc"; // Filter files by extension
 
@@ -66,6 +68,16 @@ namespace Klimatkalkyl
 
                 IFCParser iFCParser = new IFCParser();
                 IFCFile = iFCParser.ParseIFCFile(dialog.FileName);
+
+                List<string> concreteTypes = new List<string>()
+                {
+                    "Qto_WallBaseQuantities",
+                    "SECC_Concrete"
+                };
+
+                double concreteVolumes = IFCParser.AddAllConcreteVolumes(IFCFile, concreteTypes);
+                double climate = concreteVolumes * Betong.Klimat;
+                double energy = concreteVolumes * Betong.Energi;
             }
         }
     }
