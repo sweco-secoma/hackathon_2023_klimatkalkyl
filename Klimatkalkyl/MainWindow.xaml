@@ -33,9 +33,16 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Label x:Name="LabelFileName" Content="Label" HorizontalAlignment="Left" Margin="8,245,0,0" VerticalAlignment="Top" FontSize="20" Grid.Column="1" RenderTransformOrigin="-0.772,0.459" Width="560" Grid.ColumnSpan="2"/>
+        <Label x:Name="LabelFileName" Content="Label" HorizontalAlignment="Left" Margin="8,245,0,0" VerticalAlignment="Top" FontSize="20" Grid.Column="1" RenderTransformOrigin="-0.772,0.459" Width="537" Grid.ColumnSpan="2"/>
         <Label x:Name="LabelFileNameSubject" Content="Filnamn:" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" FontSize="20" Grid.Column="1" FontWeight="Bold" Width="121" Grid.ColumnSpan="2"/>
         <Image Grid.Column="1" HorizontalAlignment="Left" Height="134" Margin="10,26,0,0" VerticalAlignment="Top" Width="200" Source="/TV-logo.JPG" Grid.ColumnSpan="2"/>
+        <Label x:Name="LabelResultat" Content="Resultat" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.772,0.459" Width="89" Grid.Column="1"/>
+        <Label x:Name="LabelBetong" Content="Betong" HorizontalAlignment="Center" Margin="0,338,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="-0.772,0.459" Width="89" Grid.Column="1"/>
+        <Label x:Name="LabelResultatEnergi" Content="Energi" Visibility="Hidden" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="332,331,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="-0.772,0.459" Width="113" Grid.Column="2"/>
+        <Label x:Name="LabelResultatKlimat" Content="Klimat" Visibility="Hidden" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="233,331,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="-0.772,0.459" Width="118" Grid.Column="2"/>
+        <Label x:Name="LabelResultatKlimatSubject" Content="ton CO2e" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="233,295,0,0" VerticalAlignment="Top" FontSize="16" Background="YellowGreen" RenderTransformOrigin="-0.772,0.459" Width="118" Grid.Column="2"/>
+        <Label x:Name="LabelResultatEnergiSubject" Content="GJ" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="352,295,0,0" VerticalAlignment="Top" FontSize="16" Background="Gold" RenderTransformOrigin="-0.772,0.459" Width="95" Grid.Column="2"/>
+        <Rectangle Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="100" Margin="11,282,0,0" Stroke="Black" VerticalAlignment="Top" Width="554"/>
 
     </Grid>
 </Window>

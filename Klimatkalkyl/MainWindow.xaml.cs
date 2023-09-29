@@ -77,7 +77,11 @@ namespace Klimatkalkyl
 
                 double concreteVolumes = IFCParser.AddAllConcreteVolumes(IFCFile, concreteTypes);
                 double climate = concreteVolumes * Betong.Klimat;
+                LabelResultatKlimat.Visibility = Visibility.Visible;
+                LabelResultatKlimat.Content = string.Format("{0:0.00}", climate);
                 double energy = concreteVolumes * Betong.Energi;
+                LabelResultatEnergi.Visibility = Visibility.Visible;
+                LabelResultatEnergi.Content = string.Format("{0:0.00}", energy); ;
             }
         }
     }
